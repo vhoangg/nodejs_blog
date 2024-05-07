@@ -1,0 +1,32 @@
+<div class='mt-4'>
+    <h3>Create course</h3>
+
+    <form method='POST' action='/courses/store'>
+        <div class='mb-3'>
+            <label for='name' class='form-label'>Course name:
+            </label>
+            <input type='text' class='form-control' id='name' name='name' />
+        </div>
+        <div class='mb-3'>
+            <label for='description' class='form-label'>Course description:
+            </label>
+            <input
+                type='text'
+                class='form-control'
+                id='description'
+                name='description'
+            />
+        </div>
+        <div class='mb-3'>
+            <label for='video' class='form-label'>Course video:
+            </label>
+            <input type='text' class='form-control' id='video' name='video' />
+        </div>
+        <div class='mb-3'>
+            <label for='level' class='form-label'>Course level:
+            </label>
+            <input type='text' class='form-control' id='level' name='level' />
+        </div>
+        <button type='submit' class='btn btn-primary'>Add Course</button>
+    </form>
+</div>
